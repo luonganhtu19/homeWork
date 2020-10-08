@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Averaged Object</title>
-    <script src="caculation.js"></script>
+
 </head>
 <style>
     label{
         color: red;
+        text-align: center !important;
+        margin-left: 50px;
     }
+
 </style>
 <body>
+
 <form style="background: blue; display: inline-block">
-    <table border="1px solid black">
+    <h1 STYLE="color: yellow"><b>OBEJECT AVERAGED</b></h1>
+    <table >
         <tr>
             <td><label for="physical"> Physical </label></td>
             <td><label for="biology"> Biology </label></td>
@@ -38,6 +43,61 @@
     </table>
 </form>
 
+<br>
+<br><br><br><br><br><br> <br><br><br><br><br>
+<form style="border: 1px solid black;background: aqua;display: inline-block">
+    <h1 STYLE="color: yellow"><b>Switch tempe</b></h1>
+    <table border="1px solid black">
+        <tr>
+            <td><label for="Celsius" ><span style="text-align: center">Celsius</span></label></td>
+            <td><label for="Fahrenheit" >Fahrenheit</label></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="Celsius"></td>
+            <td><input type="number" id="Fahrenheit"></td>
+        </tr>
+        <tr>
+            <td>
+<!--                <input type="button" value="C switch F" onclick="switchTemp()" id="Cel">-->
+                <input style="margin-left: 50px" type="button" value="C switch F"onclick="switchTemp()" id="Cel">
 
+            </td>
+            <td>
+                <input style="margin-left: 50px " type="button" value="F switch C" onclick="switchTemp()" id="Fah">
+            </td>
+        </tr>
+    </table>
+</form>
+<br><br><br><br><br><br><br><br><br><br>
+
+<form style="margin-top: 20px; border: 1px solid black;display: inline-block" >
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td><label for="ra">Radius</label></td>-->
+<!--&lt;!&ndash;            <td><label for="pe">Perimeter </label></td>&ndash;&gt;-->
+<!--&lt;!&ndash;            <td><label for="ar">Area</label></td>&ndash;&gt;-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td><input type="number" id="ra"></td>-->
+<!--            <td><input type="number" id="pe"></td>-->
+<!--            <td><input type="number" id="ar"></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+
+    <h1>Calcultion circle</h1>
+    <label for="ra">Radius</label>
+    <input type="number" id="ra">
+    <br>
+    <label for="Cal1">Calculate  </label>
+    <select  id="Cal1">
+    <option value="Perimeter">Perimeter</option>
+    <option value="Area">Area</option>
+    </select>
+    <br>
+    <label for="cal">Value calcultion</label>
+    <input type="number" id="cal" disabled>
+    <input type="button" value="Caculation" onclick="calcution()">
+</form>
 </body>
+<script src="caculation.js"></script>
 </html>

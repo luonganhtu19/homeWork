@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d826179-6d7c-4c02-8a7c-741fe74d88ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/homeWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Averaged.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caculation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Averaged.html" beforeDir="false" afterPath="$PROJECT_DIR$/Averaged.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caculation.js" beforeDir="false" afterPath="$PROJECT_DIR$/caculation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
       <workItem from="1602067929366" duration="89000" />
       <workItem from="1602080410421" duration="11820000" />
       <workItem from="1602118338839" duration="8561000" />
+      <workItem from="1602127202633" duration="11852000" />
     </task>
     <servers />
   </component>
