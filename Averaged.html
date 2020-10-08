@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Averaged Object</title>
+    <script src="caculation.js"></script>
+</head>
+<style>
+    label{
+        color: red;
+    }
+</style>
+<body>
+<form style="background: blue; display: inline-block">
+    <table border="1px solid black">
+        <tr>
+            <td><label for="physical"> Physical </label></td>
+            <td><label for="biology"> Biology </label></td>
+            <td><label for="chemistry"> Chemistry</label></td>
+            <td><label for="averaged"> Averaged </label></td>
+            <td><label for="sum"> Sum </label></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="physical"></td>
+            <td><input type="number" id="biology"></td>
+            <td><input type="number" id="chemistry"></td>
+            <td><input type="number" id="averaged" disabled></td>
+            <td><input type="number" id="sum" disabled></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" name="Button" value="Check Point" onclick="caculation()" style="margin-left: 200px"> </input>
+            </td>
+            <td colspan="3">
+                <input type="reset" value="Reset" style="margin-left: 200px">
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
